@@ -2397,7 +2397,7 @@
     "blend_vb": "b8a027a1",
     "position_vb": "1876e82e",
     "draw_vb": "9d5bb5ff",
-    "new_ib": 41760901,
+    "new_ib": "41760901",
     "new_draw_vb": "",
     "path": "./PlayerCharacterData/Mika/hash.json",
     "folder": "./PlayerCharacterData/Mika",
