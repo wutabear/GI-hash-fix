@@ -9,7 +9,7 @@ def main():
 
     for filename in os.listdir(os.getcwd()):
         if filename == filetoprocess:
-            foldername = os.getcwd().split('/')[-1]
+            foldername = os.getcwd().split('\\')[-1]
             try:
                 print(f"found: {filename}")
                 with open(filename, "r", encoding="utf-8") as f:
@@ -23,19 +23,19 @@ def main():
                     object_indexes = json_data[0]["object_indexes"]  # array
                     object_classifications = json_data[0]["object_classifications"]  # array
 
-                json_output = f'''{{
-                    "old_ib": "",
-                    "texcoord_vb": "{texcoord_vb}",
-                    "blend_vb": "{blend_vb}",
-                    "position_vb": "{position_vb}",
-                    "draw_vb": "{draw_vb}",
-                    "new_ib": "{new_ib}",
-                    "new_draw_vb": "",
-                    "path": "./EnemyData/{foldername}/hash.json",
-                    "folder": "./EnemyData/{foldername}",
-                    "component_name": "",
-                    "name": "{foldername}"
-                }}'''
+                json_output = f'''  {{
+    "old_ib": "",
+    "texcoord_vb": "{texcoord_vb}",
+    "blend_vb": "{blend_vb}",
+    "position_vb": "{position_vb}",
+    "draw_vb": "{draw_vb}",
+    "new_ib": "{new_ib}",
+    "new_draw_vb": "",
+    "path": "./EnemyData/{foldername}/hash.json",
+    "folder": "./EnemyData/{foldername}",
+    "component_name": "",
+    "name": "{foldername}"
+  }}'''
 
                 with open("hash_output.json", "x") as nf:
                     nf.write(json_output)
