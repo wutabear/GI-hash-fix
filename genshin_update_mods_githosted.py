@@ -1,4 +1,5 @@
 # Author: SilentNightSound#7430
+# Modified by: wtfabear
 
 # Converts mods from pre-4.3 to 4.3+
 # Based on the 4.3 Script
@@ -8730,10 +8731,10 @@ for j in alljson_43:
             oldvsnew_43[j["old_ib"]] = j["new_ib"]  # old:new
 
 if __name__ == "__main__":
-    # print("Searching for ini files")
-    # processfolder(os.getcwd())
-    # input("DONE! Press enter to exit. Head to mod-help channel in agmg server if something failed."    )
-
-    print('running tests')
+    print("Searching for ini files")
+    processfolder(os.getcwd())
+    input("DONE! Press enter to exit. Head to mod-help channel in agmg server if something failed."    )
+    
+    # print('running tests')
     # test_simple_request()
-    test_alljson43()
+    # test_alljson43()
