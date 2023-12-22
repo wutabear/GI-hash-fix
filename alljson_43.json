@@ -5447,7 +5447,7 @@
     "name": "RaidenEiSword"
   },
   {
-    "old_ib": "",
+    "old_ib": "cd5cc84b",
     "texcoord_vb": "5186df1e",
     "blend_vb": "9fc470a7",
     "position_vb": "09e2e5e4",
@@ -5460,7 +5460,7 @@
     "name": "EremiteGalehunterClose"
   },
   {
-    "old_ib": "",
+    "old_ib": "b25aad62",
     "texcoord_vb": "a1c58c3e",
     "blend_vb": "8666b0b6",
     "position_vb": "87c6740a",
@@ -5473,7 +5473,7 @@
     "name": "EremiteGalehunterFar"
   },
   {
-    "old_ib": "",
+    "old_ib": "524cf7f8",
     "texcoord_vb": "e3d358a4",
     "blend_vb": "05650d19",
     "position_vb": "edbc8e18",
@@ -5499,7 +5499,7 @@
     "name": "EremiteGalehunterVeryVeryFar"
   },
   {
-    "old_ib": "",
+    "old_ib": "f200e51c",
     "texcoord_vb": "6a8fdd4a",
     "blend_vb": "6aa74784",
     "position_vb": "96fa7294",
@@ -5512,7 +5512,7 @@
     "name": "EremiteLoremasterClose"
   },
   {
-    "old_ib": "",
+    "old_ib": "acfba6ac",
     "texcoord_vb": "",
     "blend_vb": "",
     "position_vb": "362c29a6",
@@ -5525,7 +5525,7 @@
     "name": "EremiteLoremasterFar"
   },
   {
-    "old_ib": "",
+    "old_ib": "c13c4cb5",
     "texcoord_vb": "698b4079",
     "blend_vb": "ae62dfb9",
     "position_vb": "8bef7e25",
