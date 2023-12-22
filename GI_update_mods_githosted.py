@@ -76,7 +76,8 @@ def processfolder(folder_path):
         elif (os.path.splitext(filename)[1] == ".ini"
               and "desktop" not in filename.lower()
               and "ntuser" not in filename.lower()
-              and "disabled_backup" not in filename.lower()):
+              and "disabled_backup" not in filename.lower()
+              and "disabled" not in filename.lower()):
             ini_files.append(filename)
 
     for ini_file in ini_files:
@@ -137,6 +138,7 @@ def processfolder(folder_path):
                                 updated_line = line.replace(match, oldvsnew_43[match])
                                 output += updated_line + "\n"
                                 # Save a backup as a comment just in case
+                                output += ";pre-4.3 IB hash \n"
                                 line = ";" + line
                             output += line + "\n"
 
@@ -3262,6 +3264,7 @@ alljson_41 = [
 
 hashurl43 = 'https://raw.githubusercontent.com/wutabear/genshinhashfix/main/alljson_43.json'
 alljson_43 = simple_request(hashurl43).json()
+# alljson_43 = ''
 if not alljson_43:
     alljson_43 = [
     {
@@ -8710,6 +8713,45 @@ if not alljson_43:
         "folder": "./WeaponData/Swords/NonPlayer/RaidenEiSword",
         "component_name": "",
         "name": "RaidenEiSword"
+    },
+    {
+      "old_ib": "cd5cc84b",
+      "texcoord_vb": "5186df1e",
+      "blend_vb": "9fc470a7",
+      "position_vb": "09e2e5e4",
+      "draw_vb": "7d4ef856",
+      "new_ib": "f588a294",
+      "new_draw_vb": "",
+      "path": "./EnemyData/EremiteGalehunterClose/hash.json",
+      "folder": "./EnemyData/EremiteGalehunterClose",
+      "component_name": "",
+      "name": "EremiteGalehunterClose"
+    },
+     {
+      "old_ib": "64bf7704",
+      "texcoord_vb": "d0b68cb6",
+      "blend_vb": "0b4f8b54",
+      "position_vb": "c435aa27",
+      "draw_vb": "b7555688",
+      "new_ib": "5c6b1ddb",
+      "new_draw_vb": "",
+      "path": "./EnemyData/EremiteClearwaterClose/hash.json",
+      "folder": "./EnemyData/EremiteClearwaterClose",
+      "component_name": "",
+      "name": "EremiteClearwaterClose"
+    },
+     {
+      "old_ib": "f200e51c",
+      "texcoord_vb": "6a8fdd4a",
+      "blend_vb": "6aa74784",
+      "position_vb": "96fa7294",
+      "draw_vb": "d2cd4779",
+      "new_ib": "cad48fc3",
+      "new_draw_vb": "",
+      "path": "./EnemyData/EremiteLoremasterClose/hash.json",
+      "folder": "./EnemyData/EremiteLoremasterClose",
+      "component_name": "",
+      "name": "EremiteLoremasterClose"
     }
 ]
 
