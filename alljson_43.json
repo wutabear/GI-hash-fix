@@ -5454,10 +5454,10 @@
     "draw_vb": "7d4ef856",
     "new_ib": "f588a294",
     "new_draw_vb": "",
-    "path": "./EnemyData/EremiteGalehunterClose/hash.json",
-    "folder": "./EnemyData/EremiteGalehunterClose",
+    "path": "./EnemyData/EremiteGalehunter/hash.json",
+    "folder": "./EnemyData/EremiteGalehunter",
     "component_name": "",
-    "name": "EremiteGalehunterClose"
+    "name": "EremiteGalehunter"
   },
   {
     "old_ib": "b25aad62",
@@ -5506,23 +5506,23 @@
     "draw_vb": "d2cd4779",
     "new_ib": "cad48fc3",
     "new_draw_vb": "",
-    "path": "./EnemyData/EremiteLoremasterClose/hash.json",
-    "folder": "./EnemyData/EremiteLoremasterClose",
+    "path": "./EnemyData/EremiteScorchingLoremaster/hash.json",
+    "folder": "./EnemyData/EremiteScorchingLoremaster",
     "component_name": "",
-    "name": "EremiteLoremasterClose"
+    "name": "EremiteScorchingLoremaster"
   },
   {
     "old_ib": "acfba6ac",
-    "texcoord_vb": "",
-    "blend_vb": "",
-    "position_vb": "362c29a6",
+    "texcoord_vb": "fb694f87",
+    "blend_vb": "d1666705",
+    "position_vb": "e77e2e6a",
     "draw_vb": "362c29a6",
     "new_ib": "942fcc73",
     "new_draw_vb": "",
-    "path": "./EnemyData/EremiteLoremasterFar/hash.json",
-    "folder": "./EnemyData/EremiteLoremasterFar",
+    "path": "./EnemyData/EremiteScorchingLoremasterFar/hash.json",
+    "folder": "./EnemyData/EremiteScorchingLoremasterFar",
     "component_name": "",
-    "name": "EremiteLoremasterFar"
+    "name": "EremiteScorchingLoremasterFar"
   },
   {
     "old_ib": "c13c4cb5",
@@ -5532,10 +5532,62 @@
     "draw_vb": "b7a37699",
     "new_ib": "f9e8266a",
     "new_draw_vb": "",
-    "path": "./EnemyData/EremiteLoremasterVeryFar/hash.json",
-    "folder": "./EnemyData/EremiteLoremasterVeryFar",
+    "path": "./EnemyData/EremiteScorchingLoremasterVeryFar/hash.json",
+    "folder": "./EnemyData/EremiteScorchingLoremasterVeryFar",
     "component_name": "",
-    "name": "EremiteLoremasterVeryFar"
+    "name": "EremiteScorchingLoremasterVeryFar"
+  },
+  {
+    "old_ib": "",
+    "texcoord_vb": "f110390b",
+    "blend_vb": "2f4cbbd7",
+    "position_vb": "78d32c6f",
+    "draw_vb": "fe5fb676",
+    "new_ib": "f8e2f0f6",
+    "new_draw_vb": "",
+    "path": "./EnemyData/EremiteScorchingLoremasterVeryVeryFar/hash.json",
+    "folder": "./EnemyData/EremiteScorchingLoremasterVeryVeryFar",
+    "component_name": "",
+    "name": "EremiteScorchingLoremasterVeryVeryFar"
+  },
+  {
+    "old_ib": "33cc2a62",
+    "texcoord_vb": "cef20eec",
+    "blend_vb": "8bafabdc",
+    "position_vb": "647b8dce",
+    "draw_vb": "04983af3",
+    "new_ib": "0b1840bd",
+    "new_draw_vb": "",
+    "path": "./EnemyData/EremiteFloralRingdancerFar/hash.json",
+    "folder": "./EnemyData/EremiteFloralRingdancerFar",
+    "component_name": "",
+    "name": "EremiteFloralRingdancerFar"
+  },
+  {
+    "old_ib": "c4d5ea33",
+    "texcoord_vb": "691eb758",
+    "blend_vb": "3d1740e7",
+    "position_vb": "66822b5b",
+    "draw_vb": "df0fa039",
+    "new_ib": "fc0180ec",
+    "new_draw_vb": "",
+    "path": "./EnemyData/EremiteFloralRingdancerVeryFar/hash.json",
+    "folder": "./EnemyData/EremiteFloralRingdancerVeryFar",
+    "component_name": "",
+    "name": "EremiteFloralRingdancerVeryFar"
+  },
+  {
+    "old_ib": "",
+    "texcoord_vb": "8ada402a",
+    "blend_vb": "bf50a250",
+    "position_vb": "7d429da8",
+    "draw_vb": "5ff86b56",
+    "new_ib": "c0f0d5d7",
+    "new_draw_vb": "",
+    "path": "./EnemyData/EremiteFloralRingdancerVeryVeryFar/hash.json",
+    "folder": "./EnemyData/EremiteFloralRingdancerVeryVeryFar",
+    "component_name": "",
+    "name": "EremiteFloralRingdancerVeryVeryFar"
   },
   {
     "old_ib": "64bf7704",
@@ -5545,9 +5597,48 @@
     "draw_vb": "b7555688",
     "new_ib": "5c6b1ddb",
     "new_draw_vb": "",
-    "path": "./EnemyData/EremiteClearwaterClose/hash.json",
-    "folder": "./EnemyData/EremiteClearwaterClose",
+    "path": "./EnemyData/EremiteDesertClearwater/hash.json",
+    "folder": "./EnemyData/EremiteDesertClearwater",
     "component_name": "",
-    "name": "EremiteClearwaterClose"
+    "name": "EremiteDesertClearwater"
+  },
+  {
+    "old_ib": "8353c67a",
+    "texcoord_vb": "3ebbdaa0",
+    "blend_vb": "088dc3ed",
+    "position_vb": "b400ce68",
+    "draw_vb": "415cfabe",
+    "new_ib": "bb87aca5",
+    "new_draw_vb": "",
+    "path": "./EnemyData/EremiteDesertClearwaterFar/hash.json",
+    "folder": "./EnemyData/EremiteDesertClearwaterFar",
+    "component_name": "",
+    "name": "EremiteDesertClearwaterFar"
+  },
+  {
+    "old_ib": "33f69b99",
+    "texcoord_vb": "42847eff",
+    "blend_vb": "e5fd8992",
+    "position_vb": "defe30da",
+    "draw_vb": "ff79f696",
+    "new_ib": "e62278bb",
+    "new_draw_vb": "",
+    "path": "./EnemyData/EremiteDesertClearwaterVeryFar/hash.json",
+    "folder": "./EnemyData/EremiteDesertClearwaterVeryFar",
+    "component_name": "",
+    "name": "EremiteDesertClearwaterVeryFar"
+  },
+  {
+    "old_ib": "",
+    "texcoord_vb": "69b98df3",
+    "blend_vb": "e410ab74",
+    "position_vb": "5b81bb39",
+    "draw_vb": "a04a55d5",
+    "new_ib": "0b22f146",
+    "new_draw_vb": "",
+    "path": "./EnemyData/EremiteDesertClearwaterVeryVeryFar/hash.json",
+    "folder": "./EnemyData/EremiteDesertClearwaterVeryVeryFar",
+    "component_name": "",
+    "name": "EremiteDesertClearwaterVeryVeryFar"
   }
 ]
