@@ -494,32 +494,6 @@
     "name": "KairagiThunder"
   },
   {
-    "old_ib": "71c4f64a",
-    "texcoord_vb": "63492b53",
-    "blend_vb": "3aca49d2",
-    "position_vb": "5fa08319",
-    "draw_vb": "71c4f64a",
-    "new_ib": "",
-    "new_draw_vb": "",
-    "path": "./EnemyData/LaSignoraHarbingers/hash.json",
-    "folder": "./EnemyData/LaSignoraHarbingers",
-    "component_name": "",
-    "name": "LaSignoraHarbingers"
-  },
-  {
-    "old_ib": "0dcd3f88",
-    "texcoord_vb": "ddf59101",
-    "blend_vb": "c7b91bbe",
-    "position_vb": "0a894825",
-    "draw_vb": "0dcd3f88",
-    "new_ib": "",
-    "new_draw_vb": "",
-    "path": "./EnemyData/LaSignoraHarbingers/hash.json",
-    "folder": "./EnemyData/LaSignoraHarbingers",
-    "component_name": "2",
-    "name": "LaSignoraHarbingers"
-  },
-  {
     "old_ib": "98f98bf3",
     "texcoord_vb": "8dbb9b06",
     "blend_vb": "67c37781",
@@ -1408,8 +1382,8 @@
     "texcoord_vb": "77ab2ce7",
     "blend_vb": "aea5b7ec",
     "position_vb": "20fc3e49",
-    "draw_vb": "ca4b0738",
-    "new_ib": "",
+    "draw_vb": "43ae281f",
+    "new_ib": "bb257bd7",
     "new_draw_vb": "",
     "path": "./NPCData/LaSignora/hash.json",
     "folder": "./NPCData/LaSignora",
@@ -5900,6 +5874,31 @@
     "folder": "./EnemyData/FurinaVeryFar",
     "component_name": "",
     "name": "FurinaVeryFar"
+  },
+  {
+    "old_ib": "0dcd3f88",
+    "texcoord_vb": "ddf59101",
+    "blend_vb": "c7b91bbe",
+    "position_vb": "0a894825",
+    "draw_vb": "3f3e906b",
+    "new_ib": "35195557",
+    "new_draw_vb": "",
+    "path": "./EnemyData/LaSignoraBossPhase2/hash.json",
+    "folder": "./EnemyData/LaSignoraBossPhase2",
+    "component_name": "",
+    "name": "LaSignoraBossPhase2"
+  },
+  {
+    "old_ib": "e7247034",
+    "texcoord_vb": "e3511425",
+    "blend_vb": "57788910",
+    "position_vb": "b9040c78",
+    "draw_vb": "dc62951b",
+    "new_ib": "dff01aeb",
+    "new_draw_vb": "",
+    "path": "./EnemyData/RaidenBossPhase2/hash.json",
+    "folder": "./EnemyData/RaidenBossPhase2",
+    "component_name": "",
+    "name": "RaidenBossPhase2"
   }
-
 ]
